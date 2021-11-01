@@ -1,0 +1,37 @@
+{
+  "name": "blockjain-api",
+  "version": "0.0.1",
+  "description": "web api for blockjain",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --port 8001",
+    "build": "parcel build --no-source-maps src/index.js src/style.scss"
+  },
+  "author": "Chris Walsh <chris.is.rad@pm.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "sass": "^1.38.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
+    "components": "^0.1.0",
+    "crypto": "^1.0.1",
+    "jquery": "^3.6.0",
+    "js-file-download": "^0.4.12",
+    "qrcode": "^1.4.4",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-beta.5",
+    "react-client-session": "0.0.7",
+    "react-dom": "^17.0.2",
+    "react-overlays": "^5.1.1",
+    "recoil": "^0.4.0",
+    "recoil-persist": "^3.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}

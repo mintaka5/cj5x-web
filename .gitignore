@@ -1,0 +1,8 @@
+dist
+node_modules
+package-lock.json
+.cache
+.settings
+.project
+2.2.0
+4.1.0
